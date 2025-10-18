@@ -8,9 +8,9 @@ import numpy as np
 # -----------------------------
 @st.cache_resource
 def load_artifacts():
-    model = pickle.load(open("fraud_model.pkl", "rb"))
-    scaler = pickle.load(open("scaler.pkl", "rb"))
-    le = pickle.load(open("label_encoder.pkl", "rb"))
+    model = pickle.load(open("./pickles/fraud_model.pkl", "rb"))
+    scaler = pickle.load(open("./pickles/scaler.pkl", "rb"))
+    le = pickle.load(open("./pickles/label_encoder.pkl", "rb"))
     return model, scaler, le
 
 model, scaler, le = load_artifacts()
