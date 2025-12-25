@@ -6,7 +6,7 @@ This repository demonstrates how to **containerize, and deploy a machine learnin
 
 This project includes:
 
-* Training an **XGBoost model** and save the trained model as a `.pkl` files
+* Training an **XGBoost model** and save the trained model as `.pkl` files
 * Containerizing the application using:
 
   * **Manual containerization** (learning exercise)
