@@ -1,6 +1,7 @@
 # Containerizing ML Model with Docker
 
 This repository demonstrates how to **containerize, and deploy a machine learning model** using Docker. It focuses on best practices for packaging ML applications in a reproducible and portable way.
+<img width="813" height="292" alt="image" src="https://github.com/user-attachments/assets/ba97ecd9-0708-4aec-9f0c-91ffcb2005f2" />
 
 ## 🚀 Project Summary
 
@@ -65,5 +66,3 @@ docker push username/your_image_name
 * Configure it to pull your Docker image
 * Deploy and test the hosted app
 
-
-If you paste the **actual directory structure and filenames**, I can tailor this further with exact commands and paths from your repo.
